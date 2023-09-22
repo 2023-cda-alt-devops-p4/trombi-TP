@@ -4,28 +4,15 @@
   padding: 0;
 }
 
-body{
-  background-color: black;
-}
-
 .map-container {
-  width: 90rem;
-  height: 90rem;
-  background-image: url('assets/france_map.png'); 
-  background-size: contain; 
-  background-repeat: no-repeat; 
-}
-.map-container img {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-content: center;
+  margin: 2rem;
 }
 
-.profile {
+.map-container img {
   width: 100%;
-  max-width: 400px;
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-size: contain;
+  box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.75);
 }

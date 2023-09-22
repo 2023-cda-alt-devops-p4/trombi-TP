@@ -16,3 +16,36 @@
   background-size: contain;
   box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.75);
 }
+
+.imageProfile {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(assets/Photos/AlexandreFoucher.jpeg);
+
+  transform: translateY(-3.3rem);
+}
+
+.puceProfile{
+  display: grid;
+  place-items: center;
+}
+.puceProfile img{
+  width: 3.5rem;
+}
+.profile{
+  max-width: 23rem;
+}
+.infoProfile p {
+  text-align: justify;
+}
+.infoProfile {
+  background-color: rgb(166, 166, 166);
+  padding: 0.5rem;
+  border: 0.5rem solid rgb(115, 115, 115);
+  border-radius: 15px;
+}

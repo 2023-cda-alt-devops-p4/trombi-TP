@@ -1,5 +1,21 @@
 const dataProfiles = [
   {
+    left: 32.5,
+    top: 71,
+    info: {
+      name: "Audrey Carpentier",
+      image: "assets/Photos/AudreyCarpentier.jpeg",
+      city: "Fitz-James",
+      stacks: "React, NodeJS, SQL",
+      sports:
+        "Salle de muscu une fois par semaine, boxe française, combat libre",
+      passions:
+        "Metal (brutal death, gothic, grind, power metal - <i>'Je déteste 'Night Wish'</i>, black metal), bachata, musique classique (Mozart, opéra), bénévole à la Jeune Chambre économique (présidente régionale Hauts-de-France cette année), 2 filles de 11 ans et 2 ans, 5-6 poules (Brienne, Coucou des Flandres, Sebright)",
+      github: "https://github.com/AudreyAAOO",
+      linkedIn: "https://www.linkedin.com/in/audrey3010/",
+    },
+  },
+  {
     left: 34.5,
     top: 44,
     info: {
@@ -16,7 +32,7 @@ const dataProfiles = [
   },
   {
     left: 38,
-    top: 83,
+    top: 81.1,
     info: {
       name: "Camille Lafrance",
       image: "assets/Photos/CamilleLafrance.jpeg",
@@ -30,7 +46,7 @@ const dataProfiles = [
   },
   {
     left: 40,
-    top: 80,
+    top: 79,
     info: {
       name: "Diego Garcia",
       image: "assets/Photos/DiegoGarcia.png",
@@ -43,7 +59,7 @@ const dataProfiles = [
     },
   },
   {
-    left: 52.4,
+    left: 52,
     top: 57.3,
     info: {
       name: "Alexandre Foucher",
@@ -58,8 +74,8 @@ const dataProfiles = [
     },
   },
   {
-    left: 45,
-    top: 85,
+    left: 44,
+    top: 83,
     info: {
       name: "Jonathan Moreschi",
       image: "assets/Photos/JonathanMoreschi.jpeg",
@@ -69,21 +85,6 @@ const dataProfiles = [
         "Lecture (BD, romans, mangas), jeux vidéo (stratégie, 'Civilization', 'Crusader king 3'), fourmis - myrmécologie",
       github: "https://github.com/Eromnoj",
       linkedIn: "https://www.linkedin.com/in/jomoreschi/",
-    },
-  },
-  {
-    left: 38.7,
-    top: 46,
-    info: {
-      name: "Pierre Fraisse",
-      image: "assets/Photos/PierreFraisse.jpeg",
-      city: "Lille (Bois blancs)",
-      stacks: "Laravel, Flutter, Angular, .NET",
-      sports: "Boxe thaï",
-      passions:
-        "Guitare acoustique, chant, tous les genres de musique, cinéma - <i>'Tous les genres aussi'</i>",
-      github: "https://github.com/PierreFrs",
-      linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
     },
   },
   {
@@ -102,8 +103,8 @@ const dataProfiles = [
     },
   },
   {
-    left: 39.8,
-    top: 44,
+    left: 39.2,
+    top: 42.7,
     info: {
       name: "Thomas Mortelette",
       image: "assets/Photos/ThomasMortelette.jpeg",
@@ -118,8 +119,24 @@ const dataProfiles = [
     },
   },
   {
-    left: 42.5,
-    top: 43.2,
+    left: 40.7,
+    top: 42,
+    info: {
+      name: "Marine Beauvois",
+      image: "assets/Photos/MarineBeauvois.jpeg",
+      city: "La Madeleine",
+      stacks: "Ruby, Ruby on Rails, Cobol",
+      sports: "RPM (vélo), cardio, body pump, Pilates, yoga, musculation",
+      passions:
+        "Cinéma, séries britanniques ('Bridgerton', 'Peaky Blinders'), restaurant (indien, asiatique), cours d’agility avec son chien Rio, son chat Rani, tchai latte, développement personnel, podcast",
+      github: "https://github.com/mbeauvois",
+      linkedIn: "https://www.linkedin.com/in/marine-beauvois/",
+    },
+  },
+
+  {
+    left: 42.2,
+    top: 42,
     info: {
       name: "Zakaria Laskari",
       image: "assets/Photos/ZakariaLaskari.png",
@@ -134,54 +151,8 @@ const dataProfiles = [
     },
   },
   {
-    left: 41.2,
-    top: 43.7,
-    info: {
-      name: "Marine Beauvois",
-      image: "assets/Photos/MarineBeauvois.jpeg",
-      city: "La Madeleine",
-      stacks: "Ruby, Ruby on Rails, Cobol",
-      sports: "RPM (vélo), cardio, body pump, Pilates, yoga, musculation",
-      passions:
-        "Cinéma, séries britanniques ('Bridgerton', 'Peaky Blinders'), restaurant (indien, asiatique), cours d’agility avec son chien Rio, son chat Rani, tchai latte, développement personnel, podcast",
-      github: "https://github.com/mbeauvois",
-      linkedIn: "https://www.linkedin.com/in/marine-beauvois/",
-    },
-  },
-  {
-    left: 33,
-    top: 73,
-    info: {
-      name: "Audrey Carpentier",
-      image: "assets/Photos/AudreyCarpentier.jpeg",
-      city: "Fitz-James",
-      stacks: "React, NodeJS, SQL",
-      sports:
-        "Salle de muscu une fois par semaine, boxe française, combat libre",
-      passions:
-        "Metal (brutal death, gothic, grind, power metal - <i>'Je déteste 'Night Wish'</i>, black metal), bachata, musique classique (Mozart, opéra), bénévole à la Jeune Chambre économique (présidente régionale Hauts-de-France cette année), 2 filles de 11 ans et 2 ans, 5-6 poules (Brienne, Coucou des Flandres, Sebright)",
-      github: "https://github.com/AudreyAAOO",
-      linkedIn: "https://www.linkedin.com/in/audrey3010/",
-    },
-  },
-  {
-    left: 42,
-    top: 47.5,
-    info: {
-      name: "Nassim Deflandre",
-      image: "assets/Photos/NassimDeflandre.jpeg",
-      city: "Ronchin",
-      stacks: "React, .NET, NodeJS, NoSQL",
-      sports: "Foot",
-      passions:
-        "Séries ('Vikings'), jeux vidéo ('Fifa', 'Call Of Duty'), 1 fille de 2 ans et demi et 1 garçon nouveau-né",
-      github: "https://github.com/NassJs",
-      linkedIn: "https://www.linkedin.com/in/nassim-d-aaa48a204/",
-    },
-  },
-  {
-    left: 42.3,
-    top: 45.6,
+    left: 42.6,
+    top: 44,
     info: {
       name: "Mélanie Chauvin",
       image: "assets/Photos/MélanieChauvin.jpeg",
@@ -195,8 +166,39 @@ const dataProfiles = [
     },
   },
   {
+    left: 38.7,
+    top: 45,
+    info: {
+      name: "Pierre Fraisse",
+      image: "assets/Photos/PierreFraisse.jpeg",
+      city: "Lille (Bois blancs)",
+      stacks: "Laravel, Flutter, Angular, .NET",
+      sports: "Boxe thaï",
+      passions:
+        "Guitare acoustique, chant, tous les genres de musique, cinéma - <i>'Tous les genres aussi'</i>",
+      github: "https://github.com/PierreFrs",
+      linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+    },
+  },
+
+  {
+    left: 42,
+    top: 46.2,
+    info: {
+      name: "Nassim Deflandre",
+      image: "assets/Photos/NassimDeflandre.jpeg",
+      city: "Ronchin",
+      stacks: "React, .NET, NodeJS, NoSQL",
+      sports: "Foot",
+      passions:
+        "Séries ('Vikings'), jeux vidéo ('Fifa', 'Call Of Duty'), 1 fille de 2 ans et demi et 1 garçon nouveau-né",
+      github: "https://github.com/NassJs",
+      linkedIn: "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    },
+  },
+  {
     left: 40.3,
-    top: 48,
+    top: 46.3,
     info: {
       name: "Ludovic Phounphonh",
       image: "assets/Photos/LudovicPhounphonh.jpg",
@@ -211,15 +213,14 @@ const dataProfiles = [
   },
 ];
 
-const modal = document.getElementById('modal-profile');
-const modalTitle = document.getElementById('modal-title');
-const modalImage = document.getElementById('modal-image');
-const modalDescription = document.getElementById('modal-description');
-const closeButton = document.querySelector('.close');
+const modal = document.getElementById("modal-profile");
+const modalTitle = document.getElementById("modal-title");
+const modalImage = document.getElementById("modal-image");
+const modalDescription = document.getElementById("modal-description");
+const closeButton = document.querySelector(".close");
 const mapContainer = document.querySelector(".map-container");
 
 dataProfiles.forEach((point, index) => {
- 
   const pointElement = document.createElement("div");
   pointElement.classList.add("point");
   pointElement.style.left = point.left + "%";
@@ -231,30 +232,31 @@ dataProfiles.forEach((point, index) => {
 
   /* Open modal */
   pointElement.addEventListener("click", () => {
-    const person = dataProfiles[index]; 
+    const person = dataProfiles[index];
 
     modalTitle.textContent = person.info.name;
     modalImage.src = person.info.image;
 
-    document.getElementById('modal-city').textContent = person.info.city;
-    document.getElementById('modal-stacks').textContent = person.info.stacks;
-    document.getElementById('modal-sports').textContent = person.info.sports;
-    document.getElementById('modal-passions').textContent = person.info.passions;
-    document.getElementById('modal-github').href = person.info.github;
-    document.getElementById('modal-linkedIn').href = person.info.linkedIn;
+    document.getElementById("modal-city").textContent = person.info.city;
+    document.getElementById("modal-stacks").textContent = person.info.stacks;
+    document.getElementById("modal-sports").textContent = person.info.sports;
+    document.getElementById("modal-passions").textContent =
+      person.info.passions;
+    document.getElementById("modal-github").href = person.info.github;
+    document.getElementById("modal-linkedIn").href = person.info.linkedIn;
 
     // Display modal
-    modal.style.display = 'block';
+    modal.style.display = "block";
   });
 });
 
-/* Close modal */ 
-closeButton.addEventListener('click', () => {
-  modal.style.display = 'none';
+/* Close modal */
+closeButton.addEventListener("click", () => {
+  modal.style.display = "none";
 });
 
-window.addEventListener('click', (event) => {
+window.addEventListener("click", (event) => {
   if (event.target === modal) {
-      modal.style.display = 'none';
+    modal.style.display = "none";
   }
 });

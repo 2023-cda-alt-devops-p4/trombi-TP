@@ -8,29 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Roboto&family=Rubik:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <h1>Trombinoscope</h1>
+    <h1>Trombinoscope P4 - CDA DevOps - Simplon</h1>
     <div class="map-container">
       <!-- La carte -->
       <img src="assets/france-map.png" alt="Map" />
     </div>
-    <div class="profile">
-      <!-- Les informations sur un profil -->
-      <div id="modal-profile" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <h2 id="modal-title">Nom</h2>
-          <img src="" alt="Image de la personne" id="modal-image" />
-          <p><strong>Ville : </strong> <span id="modal-city"></span></p>
-          <p><strong>Stacks: </strong> <span id="modal-stacks"></span></p>
-          <p><strong>Sports: </strong> <span id="modal-sports"></span></p>
-          <p><strong>Passions: </strong> <span id="modal-passions"></span></p>
-          <p><a id="modal-github" href="" target="_blank">GitHub</a></p>
-          <p><a id="modal-linkedIn" href="" target="_blank">LinkedIn</a></p>
+    <footer>
+      Copyright © Theo Pierson & Camille Lafrance 2023 - Simplon CDA DevOps
+    </footer>
+
+    <!-- Les informations sur un profil -->
+    <div id="modal-profile">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modal-title">Nom</h2>
+        <img src="" alt="Image de la personne" id="modal-image" />
+        <div class="modal-info">
+          <p><strong>Ville</strong> <span id="modal-city"></span></p>
+          <p><strong>Stacks</strong> <span id="modal-stacks"></span></p>
+          <p><strong>Sports</strong> <span id="modal-sports"></span></p>
+          <p><strong>Passions</strong> <span id="modal-passions"></span></p>
+          <div class="links-container">
+            <p><a id="modal-github" href="" target="_blank">GitHub</a></p>
+            <p><a id="modal-linkedIn" href="" target="_blank">LinkedIn</a></p>
+          </div>
         </div>
       </div>
     </div>

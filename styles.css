@@ -1,7 +1,13 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: "IBM Plex Mono", monospace;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
 }
 
 .map-container {
@@ -36,12 +42,8 @@
   width: 3.5rem;
 }
 
-.profile {
-  max-width: 23rem;
-}
-
 /* Modal */
-.modal {
+#modal-profile {
   display: none;
   position: fixed;
   top: 0;
@@ -49,6 +51,39 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0.5em;
+}
+
+#modal-title {
+  padding: 0.5em;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+#modal-image {
+  max-width: 100%;
+  max-height: 50vh;
+  border-radius: 0.5em;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.modal-info {
+  position: relative;
+  padding: 1em;
+}
+
+.modal-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e0dede;
+  border-radius: 0.5em;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 .modal-content {
@@ -60,7 +95,42 @@
   padding: 1em;
   border-radius: 0.5em;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.modal-content p {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+.modal-content p strong {
+  margin-right: 0.2em;
+  background-color: #ffcc00;
+  padding: 0.15em 0.3em;
+  border-radius: 0.2em;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
+  margin-top: 2em;
+}
+
+.links-container a {
+  background-color: #156bc6;
+  color: white;
+  padding: 0.5em 0.7em;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.2);
+}
+
+.links-container a:hover {
+  background-color: #054b97;
+  box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.4);
 }
 
 .close {
@@ -71,7 +141,11 @@
   cursor: pointer;
 }
 
-#modal-image {
-  max-width: 100%;
-  max-height: 80vh;
+footer {
+  display: flex;
+  justify-content: end;
+  font-size: small;
+  color: rgb(178, 175, 175);
+  margin-right: 2rem;
+  font-style: italic;
 }

@@ -8,9 +8,9 @@ const dataProfiles = [
       city: "Fitz-James (60)",
       stacks: "React | NodeJS | SQL",
       sports:
-        "«\u00A0Je vais à la salle de muscu une fois par semaine\u00A0» | Bachata | Boxe française | Combat libre",
+        "<i>«\u00A0Je vais à la salle de muscu une fois par semaine\u00A0»</i> | Bachata | Boxe française | Combat libre",
       passions:
-        "Metal (brutal death, gothic, grind, power metal, black metal — «\u00A0Je déteste Nightwish\u00A0»), musique classique\u00A0— «\u00A0Surtout Mozart et de l'opéra\u00A0» | Bénévole à la Jeune Chambre économique — «\u00A0Je suis présidente régionale Hauts-de-France cette année\u00A0» | 2\u00A0filles de 11\u00A0ans et 2\u00A0ans | 5-6\u00A0poules (de races Coucou des Flandres, Sebright)",
+        "Metal (brutal death, gothic, grind, power metal, black metal — <i>«\u00A0Je déteste Nightwish\u00A0»</i>), musique classique\u00A0— <i>«\u00A0Surtout Mozart et de l'opéra\u00A0»</i> | Bénévole à la Jeune Chambre économique — <i>«\u00A0Je suis présidente régionale Hauts-de-France cette année\u00A0»</i> | 2\u00A0filles de 11\u00A0ans et 2\u00A0ans | 5-6\u00A0poules (de races Coucou des Flandres, Sebright)",
       github: "https://github.com/AudreyAAOO",
       linkedIn: "https://www.linkedin.com/in/audrey3010/",
     },
@@ -25,7 +25,7 @@ const dataProfiles = [
       stacks: "React | NextJS | PostGre",
       sports: "MMA",
       passions:
-        "Lecture (romans, philosophie — «\u00A0J'ai envie de faire un sparing avec Platon\u00A0») | «\u00A0Rocky\u00A0»\u00A0| «\u00A0Game of Thrones\u00A0» | «\u00A0One Piece\u00A0»",
+        "Lecture (romans, philosophie —<i>«\u00A0J'ai envie de faire un sparing avec Platon\u00A0»</i>) | «\u00A0Rocky\u00A0»\u00A0| «\u00A0Game of Thrones\u00A0» | «\u00A0One Piece\u00A0»",
       github: "https://github.com/TheoPIERSON",
       linkedIn: "https://www.linkedin.com/in/theo-pierson-5bab87216/",
     },
@@ -41,7 +41,7 @@ const dataProfiles = [
         "Angular | React | TypeScript | Java\u00A0| Spring Boot\u00A0| Swift/SwiftUI | MySQL",
       sports: "Roller quad | Yoga",
       passions:
-        "Cinéma (abonnement UGC) | Nanars | Podcasts (cinéma, politique, true crime) | Jeux de société | Romans, romans graphiques, essais\u00A0| «\u00A0Mon chat Mao\u00A0»\u00A0| Balades dans la nature",
+        "Cinéma (abonnement UGC) | Nanars | Podcasts (cinéma, politique, true crime) | Jeux de société | Romans, romans graphiques, essais\u00A0| <i>«\u00A0Mon chat Mao\u00A0»</i>\u00A0| Balades dans la nature",
     },
   },
   {
@@ -83,7 +83,7 @@ const dataProfiles = [
       stacks: "React | NextJS | NodeJS | PHP Symphony | PHP Laravel | Flutter",
       sports: "Vélo | Marche | Haltères | Randonnée",
       passions:
-        "Lecture (BD, romans, mangas) | Jeux vidéo (stratégie, «\u00A0Civilization\u00A0», «\u00A0Crusader King\u00A03\u00A0») | Les fourmis 🐜 «\u00A0La\u00A0myrmécologie\u00A0»",
+        "Lecture (BD, romans, mangas) | Jeux vidéo (stratégie, «\u00A0Civilization\u00A0», «\u00A0Crusader King\u00A03\u00A0») | Les fourmis 🐜 <i>«\u00A0La\u00A0myrmécologie\u00A0»</i>",
       github: "https://github.com/Eromnoj",
       linkedIn: "https://www.linkedin.com/in/jomoreschi/",
     },
@@ -98,7 +98,7 @@ const dataProfiles = [
       stacks: "Angular | Java | Spring Boot |  Docker",
       sports: "Football | Sports de combat",
       passions:
-        "Jeux vidéo («\u00A0Fifa\u00A0», jeu de civilisation, «\u00A0Candy Crush\u00A0» — «\u00A0Tout tout tout, je joue à tout\u00A0») | Ses chats Nala et Jasmine",
+        "Jeux vidéo («\u00A0Fifa\u00A0», jeu de civilisation, «\u00A0Candy Crush\u00A0» — <i>«\u00A0Tout tout tout, je joue à tout\u00A0»</i>) | Ses chats Nala et Jasmine",
       github: "https://github.com/YassineElazzati",
       linkedIn: "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
     },
@@ -112,7 +112,7 @@ const dataProfiles = [
       city: "Lille (Vieux Lille) (59)",
       stacks:
         "PHP | TypeScript | CSharp | React | VueJS | Angular | Symphony | ASP.NET | NodeJS | Laravel | GraphQL | PostGre",
-      sports: "«\u00A0Pas de sport\u00A0»",
+      sports: "<i>«\u00A0Pas de sport\u00A0»</i>",
       passions:
         "Jeux vidéo (MMORPG, FPS, tous les genres) | Cinéma (horreur) | L'espace",
       github: "https://github.com/DKHexDev",
@@ -161,7 +161,7 @@ const dataProfiles = [
       stacks: "Quarkus | VueJS | Java | Angular",
       sports: "Taekwondo",
       passions:
-        "Manger — «\u00A0Surtout quand il y a du poulet\u00A0» | Boire du Champagne | Lecture (suspense, thriller, «\u00A0Où il y a du crime, du sang\u00A0»\u00A0| Karaoké",
+        "Manger — <i>«\u00A0Surtout quand il y a du poulet\u00A0»</i> | Boire du Champagne | Lecture (suspense, thriller, <i>«\u00A0Où il y a du crime, du sang\u00A0»</i>\u00A0| Karaoké",
       github: "https://github.com/Melcn",
       linkedIn: "https://www.linkedin.com/in/melanie-cn/",
     },
@@ -176,7 +176,7 @@ const dataProfiles = [
       stacks: "Laravel | Flutter | Angular | .NET",
       sports: "Boxe thaï",
       passions:
-        "Guitare acoustique | Chant | Tous les genres de musique | Cinéma — «\u00A0Tous les genres aussi\u00A0»",
+        "Guitare acoustique | Chant | Tous les genres de musique | Cinéma — <i>«\u00A0Tous les genres aussi\u00A0»</i>",
       github: "https://github.com/PierreFrs",
       linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
     },
@@ -235,13 +235,13 @@ dataProfiles.forEach((point, index) => {
   pointElement.addEventListener("click", () => {
     const person = dataProfiles[index];
 
-    modalTitle.textContent = person.info.name;
+    modalTitle.innerHTML = person.info.name;
     modalImage.src = person.info.image;
 
-    document.getElementById("modal-city").textContent = person.info.city;
-    document.getElementById("modal-stacks").textContent = person.info.stacks;
-    document.getElementById("modal-sports").textContent = person.info.sports;
-    document.getElementById("modal-passions").textContent =
+    document.getElementById("modal-city").innerHTML = person.info.city;
+    document.getElementById("modal-stacks").innerHTML = person.info.stacks;
+    document.getElementById("modal-sports").innerHTML = person.info.sports;
+    document.getElementById("modal-passions").innerHTML =
       person.info.passions;
     document.getElementById("modal-github").href = person.info.github;
     document.getElementById("modal-linkedIn").href = person.info.linkedIn;

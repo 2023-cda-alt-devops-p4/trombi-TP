@@ -29,7 +29,7 @@ h1 {
 .map-container img {
   width: 100%;
   height: auto;
-  box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.75); 
 }
 
 .point {

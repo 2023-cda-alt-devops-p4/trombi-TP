@@ -25,7 +25,7 @@ const dataProfiles = [
       stacks: "React | NextJS | PostGre",
       sports: "MMA",
       passions:
-        "Lecture (romans, philosophie - «\u00A0J'ai envie de faire un sparing avec Platon\u00A0») | «\u00A0Rocky\u00A0»\u00A0| «\u00A0Game of Thrones\u00A0» | «\u00A0One Piece\u00A0»",
+        "Lecture (romans, philosophie — «\u00A0J'ai envie de faire un sparing avec Platon\u00A0») | «\u00A0Rocky\u00A0»\u00A0| «\u00A0Game of Thrones\u00A0» | «\u00A0One Piece\u00A0»",
       github: "https://github.com/TheoPIERSON",
       linkedIn: "https://www.linkedin.com/in/theo-pierson-5bab87216/",
     },
@@ -36,7 +36,7 @@ const dataProfiles = [
     info: {
       name: "Camille Lafrance",
       image: "assets/Photos/CamilleLafrance.jpeg",
-      city: "Paris (Montsouris)",
+      city: "Paris (Montsouris) (75)",
       stacks:
         "Angular | React | TypeScript | Java\u00A0| Spring Boot\u00A0| Swift/SwiftUI | MySQL",
       sports: "Roller quad | Yoga",
@@ -50,7 +50,7 @@ const dataProfiles = [
     info: {
       name: "Diego Garcia",
       image: "assets/Photos/DiegoGarcia.png",
-      city: "Paris (Nation)",
+      city: "Paris (Nation) (75)",
       stacks: "React | TypeScript | .NET | CSharp | NodeJS",
       sports: "Marche",
       passions: "Lecture (romans, non fiction) | Rock latino-américain",
@@ -83,7 +83,7 @@ const dataProfiles = [
       stacks: "React | NextJS | NodeJS | PHP Symphony | PHP Laravel | Flutter",
       sports: "Vélo | Marche | Haltères | Randonnée",
       passions:
-        "Lecture (BD, romans, mangas) | Jeux vidéo (stratégie, «\u00A0Civilization\u00A0», «\u00A0Crusader King\u00A03\u00A0») | Les fourmis 🐜 «\u00A0La myrmécologie\u00A0»",
+        "Lecture (BD, romans, mangas) | Jeux vidéo (stratégie, «\u00A0Civilization\u00A0», «\u00A0Crusader King\u00A03\u00A0») | Les fourmis 🐜 «\u00A0La\u00A0myrmécologie\u00A0»",
       github: "https://github.com/Eromnoj",
       linkedIn: "https://www.linkedin.com/in/jomoreschi/",
     },
@@ -109,7 +109,7 @@ const dataProfiles = [
     info: {
       name: "Thomas Mortelette",
       image: "assets/Photos/ThomasMortelette.jpeg",
-      city: "Lille (Vieux Lille)",
+      city: "Lille (Vieux Lille) (59)",
       stacks:
         "PHP | TypeScript | CSharp | React | VueJS | Angular | Symphony | ASP.NET | NodeJS | Laravel | GraphQL | PostGre",
       sports: "«\u00A0Pas de sport\u00A0»",
@@ -157,11 +157,11 @@ const dataProfiles = [
     info: {
       name: "Mélanie Chauvin",
       image: "assets/Photos/MélanieChauvin.jpeg",
-      city: "Lille (Saint-Maurice-Pellevoisin)",
+      city: "Lille (Saint-Maurice-Pellevoisin) (59)",
       stacks: "Quarkus | VueJS | Java | Angular",
       sports: "Taekwondo",
       passions:
-        "Manger — «\u00A0Surtout quand il y a du poulet)»\u00A0 | Boire du Champagne | Lecture (suspense, thriller, «\u00A0Où il y a du crime, du sang\u00A0») | Karaoké",
+        "Manger — «\u00A0Surtout quand il y a du poulet\u00A0» | Boire du Champagne | Lecture (suspense, thriller, «\u00A0Où il y a du crime, du sang\u00A0»\u00A0| Karaoké",
       github: "https://github.com/Melcn",
       linkedIn: "https://www.linkedin.com/in/melanie-cn/",
     },
@@ -172,11 +172,11 @@ const dataProfiles = [
     info: {
       name: "Pierre Fraisse",
       image: "assets/Photos/PierreFraisse.jpeg",
-      city: "Lille (Bois blancs)",
+      city: "Lille (Bois blancs) (59)",
       stacks: "Laravel | Flutter | Angular | .NET",
       sports: "Boxe thaï",
       passions:
-        "Guitare acoustique | Chant | Tous les genres de musique | Cinéma - «\u00A0Tous les genres aussi\u00A0»",
+        "Guitare acoustique | Chant | Tous les genres de musique | Cinéma — «\u00A0Tous les genres aussi\u00A0»",
       github: "https://github.com/PierreFrs",
       linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
     },
@@ -190,7 +190,7 @@ const dataProfiles = [
       image: "assets/Photos/NassimDeflandre.jpeg",
       city: "Ronchin (59)",
       stacks: "React | .NET | NodeJS | NoSQL",
-      sports: "Foot",
+      sports: "Football",
       passions:
         "Séries («\u00A0Vikings\u00A0») | Jeux vidéo («\u00A0Fifa\u00A0», «\u00A0Call Of Duty\u00A0») | 1\u00A0fille de 2\u00A0ans et demi et 1\u00A0garçon nouveau-né",
       github: "https://github.com/NassJs",

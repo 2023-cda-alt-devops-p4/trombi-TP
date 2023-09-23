@@ -9,19 +9,15 @@
   justify-content: center;
   align-content: center;
   margin: 2rem;
-
   position: relative;
-  width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 .map-container img {
   width: 100%;
-
   height: auto;
   display: block;
-
   background-size: contain;
   box-shadow: 0 0 1em 0.1em rgba(0, 0, 0, 0.75);
 }
@@ -38,12 +34,10 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-image: url(assets/Photos/AlexandreFoucher.jpeg);
-
   transform: translateY(-3.3rem);
 }
 

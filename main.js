@@ -1,4 +1,4 @@
-const positionsProfiles = [
+const dataProfiles = [
   {
     left: 34.5,
     top: 44,
@@ -9,7 +9,7 @@ const positionsProfiles = [
       stacks: "React, NextJS, PostGre",
       sports: "MMA",
       passions:
-        "Lecture (romans, philosophie - *'J'ai envie de faire un sparing avec Platon'*), 'Rocky', 'Game of Thrones', 'One Piece'",
+        "Lecture (romans, philosophie - <i>'J'ai envie de faire un sparing avec Platon'</i>), 'Rocky', 'Game of Thrones', 'One Piece'",
       github: "https://github.com/TheoPIERSON",
       linkedIn: "https://www.linkedin.com/in/theo-pierson-5bab87216/",
     },
@@ -25,7 +25,7 @@ const positionsProfiles = [
         "Angular, React, TypeScript, Java, Spring Boot, Swift/SwiftUI, MySQL",
       sports: "Roller quad, yoga",
       passions:
-        "Cinéma (abonnement UGC), nanars, podcasts (cinéma, politique, true crime), romans, romans graphiques, essais, *'Mon chat Mao'*, balades dans la nature",
+        "Cinéma (abonnement UGC), nanars, podcasts (cinéma, politique, true crime), romans, romans graphiques, essais, <i>'Mon chat Mao'</i>, balades dans la nature",
     },
   },
   {
@@ -43,8 +43,8 @@ const positionsProfiles = [
     },
   },
   {
-    left: 52.7,
-    top: 58,
+    left: 52.4,
+    top: 57.3,
     info: {
       name: "Alexandre Foucher",
       image: "assets/Photos/AlexandreFoucher.jpeg",
@@ -72,7 +72,7 @@ const positionsProfiles = [
     },
   },
   {
-    left: 39.5,
+    left: 38.7,
     top: 46,
     info: {
       name: "Pierre Fraisse",
@@ -81,14 +81,14 @@ const positionsProfiles = [
       stacks: "Laravel, Flutter, Angular, .NET",
       sports: "Boxe thaï",
       passions:
-        "Guitare acoustique, chant, tous les genres de musique, cinéma - *'Tous les genres aussi'*",
+        "Guitare acoustique, chant, tous les genres de musique, cinéma - <i>'Tous les genres aussi'</i>",
       github: "https://github.com/PierreFrs",
       linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
     },
   },
   {
-    left: 34,
-    top: 54,
+    left: 33.4,
+    top: 53,
     info: {
       name: "Yassine El Azzati",
       image: "assets/Photos/YassineElAzzati.jpeg",
@@ -96,13 +96,13 @@ const positionsProfiles = [
       stacks: "Angular, Java, Spring Boot, Docker",
       sports: "Foot, sports de combat",
       passions:
-        "Jeux vidéo ('Fifa', jeu de civilisation, 'Candy Crush', *'tout tout tout'*), ses chats Nala et Jasmine",
+        "Jeux vidéo ('Fifa', jeu de civilisation, 'Candy Crush', <i>'Tout tout tout'</i>), ses chats Nala et Jasmine",
       github: "https://github.com/YassineElazzati",
       linkedIn: "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
     },
   },
   {
-    left: 40.1,
+    left: 39.8,
     top: 44,
     info: {
       name: "Thomas Mortelette",
@@ -118,8 +118,8 @@ const positionsProfiles = [
     },
   },
   {
-    left: 42,
-    top: 43.5,
+    left: 42.5,
+    top: 43.2,
     info: {
       name: "Zakaria Laskari",
       image: "assets/Photos/ZakariaLaskari.png",
@@ -135,7 +135,7 @@ const positionsProfiles = [
   },
   {
     left: 41.2,
-    top: 44,
+    top: 43.7,
     info: {
       name: "Marine Beauvois",
       image: "assets/Photos/MarineBeauvois.jpeg",
@@ -159,14 +159,14 @@ const positionsProfiles = [
       sports:
         "Salle de muscu une fois par semaine, boxe française, combat libre",
       passions:
-        "Metal (brutal death, gothic, grind, power metal - déteste 'Night Wish', black metal), bachata, musique classique (Mozart, opéra), bénévole à la Jeune Chambre économique (présidente régionale Hauts-de-France cette année), 2 filles de 11 ans et 2 ans, 5-6 poules (Brienne, Coucou des Flandres, Sebright)",
+        "Metal (brutal death, gothic, grind, power metal - <i>'Je déteste 'Night Wish'</i>, black metal), bachata, musique classique (Mozart, opéra), bénévole à la Jeune Chambre économique (présidente régionale Hauts-de-France cette année), 2 filles de 11 ans et 2 ans, 5-6 poules (Brienne, Coucou des Flandres, Sebright)",
       github: "https://github.com/AudreyAAOO",
       linkedIn: "https://www.linkedin.com/in/audrey3010/",
     },
   },
   {
-    left: 42.2,
-    top: 46.2,
+    left: 42,
+    top: 47.5,
     info: {
       name: "Nassim Deflandre",
       image: "assets/Photos/NassimDeflandre.jpeg",
@@ -180,8 +180,8 @@ const positionsProfiles = [
     },
   },
   {
-    left: 42,
-    top: 45,
+    left: 42.3,
+    top: 45.6,
     info: {
       name: "Mélanie Chauvin",
       image: "assets/Photos/MélanieChauvin.jpeg",
@@ -189,14 +189,14 @@ const positionsProfiles = [
       stacks: "Quarkus, VueJS, Java, Angular",
       sports: "Taekwondo",
       passions:
-        "Manger (fan de poulet), boire de l’alcool, lecture (suspense, thriller, crime, sang), karaoké, Champagne",
+        "Manger (fan de poulet), boire de l’alcool, lecture (suspense, thriller, <i>'Du crime, du sang'</i>), karaoké, Champagne",
       github: "https://github.com/Melcn",
       linkedIn: "https://www.linkedin.com/in/melanie-cn/",
     },
   },
   {
-    left: 41,
-    top: 47.8,
+    left: 40.3,
+    top: 48,
     info: {
       name: "Ludovic Phounphonh",
       image: "assets/Photos/LudovicPhounphonh.jpg",
@@ -211,18 +211,50 @@ const positionsProfiles = [
   },
 ];
 
-const pointContainer = document.querySelector(".map-container");
+const modal = document.getElementById('modal-profile');
+const modalTitle = document.getElementById('modal-title');
+const modalImage = document.getElementById('modal-image');
+const modalDescription = document.getElementById('modal-description');
+const closeButton = document.querySelector('.close');
+const mapContainer = document.querySelector(".map-container");
 
-positionsProfiles.forEach((point, index) => {
+dataProfiles.forEach((point, index) => {
+ 
   const pointElement = document.createElement("div");
   pointElement.classList.add("point");
   pointElement.style.left = point.left + "%";
   pointElement.style.top = point.top + "%";
+  pointElement.style.backgroundImage = "url(" + point.info.image + ")";
   pointElement.dataset.index = index;
 
-  pointContainer.appendChild(pointElement);
+  mapContainer.appendChild(pointElement);
 
+  /* Open modal */
   pointElement.addEventListener("click", () => {
-    alert(`Ceci est ${point.name}`);
+    const person = dataProfiles[index]; 
+
+    modalTitle.textContent = person.info.name;
+    modalImage.src = person.info.image;
+
+    document.getElementById('modal-city').textContent = person.info.city;
+    document.getElementById('modal-stacks').textContent = person.info.stacks;
+    document.getElementById('modal-sports').textContent = person.info.sports;
+    document.getElementById('modal-passions').textContent = person.info.passions;
+    document.getElementById('modal-github').href = person.info.github;
+    document.getElementById('modal-linkedIn').href = person.info.linkedIn;
+
+    // Display modal
+    modal.style.display = 'block';
   });
+});
+
+/* Close modal */ 
+closeButton.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+window.addEventListener('click', (event) => {
+  if (event.target === modal) {
+      modal.style.display = 'none';
+  }
 });

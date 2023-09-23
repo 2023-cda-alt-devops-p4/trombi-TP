@@ -24,26 +24,12 @@
 
 .point {
   position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color: red;
+  padding: 0.8rem;
   border-radius: 50%;
-}
-
-.image-profile {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
+  cursor: pointer;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(assets/Photos/AlexandreFoucher.jpeg);
-  transform: translateY(-3.3rem);
-}
-
-.pointer-profile {
-  display: grid;
-  place-items: center;
 }
 
 .pointer-profile img {
@@ -54,13 +40,38 @@
   max-width: 23rem;
 }
 
-.infoProfile p {
-  text-align: justify;
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.info-profile {
-  background-color: rgb(166, 166, 166);
-  padding: 0.5rem;
-  border: 0.5rem solid rgb(115, 115, 115);
-  border-radius: 15px;
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1em; 
+  border-radius: 0.5em; 
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 1em; 
+  right: 1em;
+  font-size: 1.5em; 
+  cursor: pointer;
+}
+
+#modal-image {
+  max-width: 100%; 
+  max-height: 80vh; 
 }

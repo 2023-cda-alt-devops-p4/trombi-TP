@@ -12,23 +12,20 @@
       <img src="assets/france-map.png" alt="Map" />
     </div>
     <div class="profile">
-      <div class="pointer-profile">
-        <a href=""><img src="assets/map-pointer.png" alt="Pointer" /></a>
-        <div class="image-profile"></div>
-      </div>
+      
       <!-- Les informations sur un profil -->
-      <div class="info-profile">
-        <h1>Alexandre Foucher</h1>
-        <h3>Ses hobbies :</h3>
-        <p>
-          Jeux vidéo (“Civilisation”, “Age of Empire”, “Deep Rock Galactic”),
-          manga (”Darwin’s Game”), anime (”1. Steins;Gate”), natation, electro,
-          metal, musique classique
-        </p>
-        <h3>Son plat préféré :</h3>
-        <p>La tartiflette</p>
-        <h3>Ses stacks</h3>
-        <p>JS, React, Node, Java, PHP, VB.net</p>
+      <div id="modal-profile" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">Nom</h2>
+            <img src="" alt="Image de la personne" id="modal-image">
+            <p><strong>Ville : </strong> <span id="modal-city"></span></p>
+            <p><strong>Stacks: </strong> <span id="modal-stacks"></span></p>
+            <p><strong>Sports: </strong> <span id="modal-sports"></span></p>
+            <p><strong>Passions: </strong> <span id="modal-passions"></span></p>
+            <p><a id="modal-github" href="" target="_blank">GitHub</a></p>
+            <p><a id="modal-linkedIn" href="" target="_blank">LinkedIn</a></p>
+        </div>
       </div>
     </div>
     <script src="main.js"></script>

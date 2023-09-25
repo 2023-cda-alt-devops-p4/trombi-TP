@@ -22,8 +22,9 @@ h1 {
   align-content: center;
   margin: 2rem;
   position: relative;
-  max-width: 100%;
   height: auto;
+  width: 120vh;
+  max-width:100%;
 }
 
 .map-container img {
@@ -141,9 +142,9 @@ h1 {
 
 footer {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   font-size: small;
   color: rgb(178, 175, 175);
-  margin-right: 2rem;
+  margin-left: 2rem;
   font-style: italic;
 }

@@ -1,89 +1,91 @@
 const dataProfiles = [
   {
+    left: 32.5,
+    top: 71,
+    info: {
+      name: "Audrey Carpentier",
+      image: "assets/Photos/AudreyCarpentier.jpeg",
+      city: "Fitz-James (60)",
+      stacks: "React | NodeJS | SQL",
+      sports:
+        "<i>«\u00A0Je vais à la salle de muscu une fois par semaine\u00A0»</i> | Bachata | Boxe française | Combat libre",
+      passions:
+        "Metal (brutal death, gothic, grind, power metal, black metal — <i>«\u00A0Je déteste Nightwish\u00A0»</i>), musique classique\u00A0— <i>«\u00A0Surtout Mozart et de l'opéra\u00A0»</i> | Bénévole à la Jeune Chambre économique — <i>«\u00A0Je suis présidente régionale Hauts-de-France cette année\u00A0»</i> | 2\u00A0filles de 11\u00A0ans et 2\u00A0ans | 5-6\u00A0poules (de races Coucou des Flandres, Sebright)",
+      github: "https://github.com/AudreyAAOO",
+      linkedIn: "https://www.linkedin.com/in/audrey3010/",
+    },
+  },
+  {
     left: 34.5,
     top: 44,
     info: {
       name: "Theo Pierson",
       image: "assets/Photos/ThéoPierson.jpg",
-      city: "Lestrem",
-      stacks: "React, NextJS, PostGre",
+      city: "Lestrem (62)",
+      stacks: "React | NextJS | PostGre",
       sports: "MMA",
       passions:
-        "Lecture (romans, philosophie - <i>'J'ai envie de faire un sparing avec Platon'</i>), 'Rocky', 'Game of Thrones', 'One Piece'",
+        "Lecture (romans, philosophie —<i>«\u00A0J'ai envie de faire un sparing avec Platon\u00A0»</i>) | «\u00A0Rocky\u00A0»\u00A0| «\u00A0Game of Thrones\u00A0» | «\u00A0One Piece\u00A0»",
       github: "https://github.com/TheoPIERSON",
       linkedIn: "https://www.linkedin.com/in/theo-pierson-5bab87216/",
     },
   },
   {
     left: 38,
-    top: 83,
+    top: 81.1,
     info: {
       name: "Camille Lafrance",
       image: "assets/Photos/CamilleLafrance.jpeg",
-      city: "Paris (Montsouris)",
+      city: "Paris (Montsouris) (75)",
       stacks:
-        "Angular, React, TypeScript, Java, Spring Boot, Swift/SwiftUI, MySQL",
-      sports: "Roller quad, yoga",
+        "Angular | React | TypeScript | Java\u00A0| Spring Boot\u00A0| Swift/SwiftUI | MySQL",
+      sports: "Roller quad | Yoga",
       passions:
-        "Cinéma (abonnement UGC), nanars, podcasts (cinéma, politique, true crime), romans, romans graphiques, essais, <i>'Mon chat Mao'</i>, balades dans la nature",
+        "Cinéma (abonnement UGC) | Nanars | Podcasts (cinéma, politique, true crime) | Jeux de société | Romans, romans graphiques, essais\u00A0| <i>«\u00A0Mon chat Mao\u00A0»</i>\u00A0| Balades dans la nature",
     },
   },
   {
     left: 40,
-    top: 80,
+    top: 79,
     info: {
       name: "Diego Garcia",
       image: "assets/Photos/DiegoGarcia.png",
-      city: "Paris (Nation)",
-      stacks: "React, TypeScript, .NET, CSharp, NodeJS",
+      city: "Paris (Nation) (75)",
+      stacks: "React | TypeScript | .NET | CSharp | NodeJS",
       sports: "Marche",
-      passions: "Lecture (romans, non fiction), rock latino américain",
+      passions: "Lecture (romans, non fiction) | Rock latino-américain",
       github: "https://github.com/dgo-gco",
       linkedIn: "https://www.linkedin.com/in/diego-garciaco",
     },
   },
   {
-    left: 52.4,
+    left: 52,
     top: 57.3,
     info: {
       name: "Alexandre Foucher",
       image: "assets/Photos/AlexandreFoucher.jpeg",
-      city: "Valenciennes",
-      stacks: "React, NodeJS, Java, PHP, VB.NET",
+      city: "Valenciennes (59)",
+      stacks: "React | NodeJS | Java | PHP | VB.NET",
       sports: "Natation",
       passions:
-        "Jeux vidéo ('Civilization', 'Age of Empire', 'Deep Rock Galactic', mangas ('Darwin’s Game'), animes ('Steins;Gate'), electro, metal, musique classique",
+        "Jeux vidéo («\u00A0Civilization\u00A0», «\u00A0Age of Empire\u00A0», «\u00A0Deep Rock Galactic\u00A0») | Mangas («\u00A0Darwin’s Game\u00A0») | Animes («\u00A0Steins;Gate\u00A0») | Electro, metal, musique classique",
       github: "https://github.com/AlexTakoDev",
       linkedIn: "https://www.linkedin.com/in/alexandre-foucher-0050571a4/",
     },
   },
   {
-    left: 45,
-    top: 85,
+    left: 44,
+    top: 83,
     info: {
       name: "Jonathan Moreschi",
       image: "assets/Photos/JonathanMoreschi.jpeg",
-      city: "Gretz-Armainvilliers",
-      stacks: "React, NextJS, NodeJS, PHP Symphony, PHP Laravel, Flutter",
+      city: "Gretz-Armainvilliers (77)",
+      stacks: "React | NextJS | NodeJS | PHP Symphony | PHP Laravel | Flutter",
+      sports: "Vélo | Marche | Haltères | Randonnée",
       passions:
-        "Lecture (BD, romans, mangas), jeux vidéo (stratégie, 'Civilization', 'Crusader king 3'), fourmis - myrmécologie",
+        "Lecture (BD, romans, mangas) | Jeux vidéo (stratégie, «\u00A0Civilization\u00A0», «\u00A0Crusader King\u00A03\u00A0») | Les fourmis 🐜 <i>«\u00A0La\u00A0myrmécologie\u00A0»</i>",
       github: "https://github.com/Eromnoj",
       linkedIn: "https://www.linkedin.com/in/jomoreschi/",
-    },
-  },
-  {
-    left: 38.7,
-    top: 46,
-    info: {
-      name: "Pierre Fraisse",
-      image: "assets/Photos/PierreFraisse.jpeg",
-      city: "Lille (Bois blancs)",
-      stacks: "Laravel, Flutter, Angular, .NET",
-      sports: "Boxe thaï",
-      passions:
-        "Guitare acoustique, chant, tous les genres de musique, cinéma - <i>'Tous les genres aussi'</i>",
-      github: "https://github.com/PierreFrs",
-      linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
     },
   },
   {
@@ -92,134 +94,134 @@ const dataProfiles = [
     info: {
       name: "Yassine El Azzati",
       image: "assets/Photos/YassineElAzzati.jpeg",
-      city: "Arras",
-      stacks: "Angular, Java, Spring Boot, Docker",
-      sports: "Foot, sports de combat",
+      city: "Arras (62)",
+      stacks: "Angular | Java | Spring Boot |  Docker",
+      sports: "Football | Sports de combat",
       passions:
-        "Jeux vidéo ('Fifa', jeu de civilisation, 'Candy Crush', <i>'Tout tout tout'</i>), ses chats Nala et Jasmine",
+        "Jeux vidéo («\u00A0Fifa\u00A0», jeu de civilisation, «\u00A0Candy Crush\u00A0» — <i>«\u00A0Tout tout tout, je joue à tout\u00A0»</i>) | Ses chats Nala et Jasmine",
       github: "https://github.com/YassineElazzati",
       linkedIn: "https://www.linkedin.com/in/yassine-el-azzati-7b5a331b8/",
     },
   },
   {
-    left: 39.8,
-    top: 44,
+    left: 39.2,
+    top: 42.7,
     info: {
       name: "Thomas Mortelette",
       image: "assets/Photos/ThomasMortelette.jpeg",
-      city: "Lille (Vieux Lille)",
+      city: "Lille (Vieux Lille) (59)",
       stacks:
-        "PHP, TypeScript, CSharp, React, VueJS, Angular, Symphony, ASP.NET, NodeJS, Laravel, GraphQL, PostGre",
-      sports: "",
+        "PHP | TypeScript | CSharp | React | VueJS | Angular | Symphony | ASP.NET | NodeJS | Laravel | GraphQL | PostGre",
+      sports: "<i>«\u00A0Pas de sport\u00A0»</i>",
       passions:
-        "Jeux vidéo (MMORPG, FPS, tous les genres), cinéma (horreur), espace",
+        "Jeux vidéo (MMORPG, FPS, tous les genres) | Cinéma (horreur) | L'espace",
       github: "https://github.com/DKHexDev",
       linkedIn: "https://www.linkedin.com/in/thomas-mortelette-845318190/",
     },
   },
   {
-    left: 42.5,
-    top: 43.2,
+    left: 40.7,
+    top: 42,
+    info: {
+      name: "Marine Beauvois",
+      image: "assets/Photos/MarineBeauvois.jpeg",
+      city: "La Madeleine (59)",
+      stacks: "Ruby | Ruby on Rails | Cobol",
+      sports: "RPM (vélo) | Cardio | Body pump | Pilates | Yoga | Musculation",
+      passions:
+        "Cinéma | Séries britanniques («\u00A0Bridgerton\u00A0», «\u00A0Peaky Blinders\u00A0») | Aller au restaurant (indien, asiatique) | Cours d’agility avec son chien Rio | Son chat Rani | Tchai latte | Développement personnel | Podcasts",
+      github: "https://github.com/mbeauvois",
+      linkedIn: "https://www.linkedin.com/in/marine-beauvois/",
+    },
+  },
+
+  {
+    left: 42.2,
+    top: 42,
     info: {
       name: "Zakaria Laskari",
       image: "assets/Photos/ZakariaLaskari.png",
-      city: "Roubaix",
-      stacks: "Symphony, PHP, React, TypeScript",
+      city: "Roubaix (59)",
+      stacks: "Symphony | PHP | React | TypeScript",
       sports:
-        "Street work out (musculation et figures), foot, basket, boxe anglaise",
+        "Street work out (musculation et figures) | Football | Basket | Boxe anglaise",
       passions:
-        "Jeux vidéo (tous les genres), mangas, animes ('Dragon Ball', 'Parasite', 'Dr Stone'), comics ('SpiderMan', 'Flash', 'Batman')",
+        "Jeux vidéo (tous les genres) | Mangas | Animes («\u00A0Dragon Ball\u00A0», «\u00A0Parasite\u00A0», «\u00A0Dr\u00A0Stone\u00A0») | Comics («\u00A0SpiderMan\u00A0», «\u00A0Flash\u00A0», «\u00A0Batman\u00A0»)",
       github: "https://github.com/zakkios",
       linkedIn: "https://www.linkedin.com/in/zakaria-laskari/",
     },
   },
   {
-    left: 41.2,
-    top: 43.7,
-    info: {
-      name: "Marine Beauvois",
-      image: "assets/Photos/MarineBeauvois.jpeg",
-      city: "La Madeleine",
-      stacks: "Ruby, Ruby on Rails, Cobol",
-      sports: "RPM (vélo), cardio, body pump, Pilates, yoga, musculation",
-      passions:
-        "Cinéma, séries britanniques ('Bridgerton', 'Peaky Blinders'), restaurant (indien, asiatique), cours d’agility avec son chien Rio, son chat Rani, tchai latte, développement personnel, podcast",
-      github: "https://github.com/mbeauvois",
-      linkedIn: "https://www.linkedin.com/in/marine-beauvois/",
-    },
-  },
-  {
-    left: 33,
-    top: 73,
-    info: {
-      name: "Audrey Carpentier",
-      image: "assets/Photos/AudreyCarpentier.jpeg",
-      city: "Fitz-James",
-      stacks: "React, NodeJS, SQL",
-      sports:
-        "Salle de muscu une fois par semaine, boxe française, combat libre",
-      passions:
-        "Metal (brutal death, gothic, grind, power metal - <i>'Je déteste 'Night Wish'</i>, black metal), bachata, musique classique (Mozart, opéra), bénévole à la Jeune Chambre économique (présidente régionale Hauts-de-France cette année), 2 filles de 11 ans et 2 ans, 5-6 poules (Brienne, Coucou des Flandres, Sebright)",
-      github: "https://github.com/AudreyAAOO",
-      linkedIn: "https://www.linkedin.com/in/audrey3010/",
-    },
-  },
-  {
-    left: 42,
-    top: 47.5,
-    info: {
-      name: "Nassim Deflandre",
-      image: "assets/Photos/NassimDeflandre.jpeg",
-      city: "Ronchin",
-      stacks: "React, .NET, NodeJS, NoSQL",
-      sports: "Foot",
-      passions:
-        "Séries ('Vikings'), jeux vidéo ('Fifa', 'Call Of Duty'), 1 fille de 2 ans et demi et 1 garçon nouveau-né",
-      github: "https://github.com/NassJs",
-      linkedIn: "https://www.linkedin.com/in/nassim-d-aaa48a204/",
-    },
-  },
-  {
-    left: 42.3,
-    top: 45.6,
+    left: 42.6,
+    top: 44,
     info: {
       name: "Mélanie Chauvin",
       image: "assets/Photos/MélanieChauvin.jpeg",
-      city: "Lille (Saint-Maurice-Pellevoisin)",
-      stacks: "Quarkus, VueJS, Java, Angular",
+      city: "Lille (Saint-Maurice-Pellevoisin) (59)",
+      stacks: "Quarkus | VueJS | Java | Angular",
       sports: "Taekwondo",
       passions:
-        "Manger (fan de poulet), boire de l’alcool, lecture (suspense, thriller, <i>'Du crime, du sang'</i>), karaoké, Champagne",
+        "Manger — <i>«\u00A0Surtout quand il y a du poulet\u00A0»</i> | Boire du Champagne | Lecture (suspense, thriller, <i>«\u00A0Où il y a du crime, du sang\u00A0»</i>\u00A0| Karaoké",
       github: "https://github.com/Melcn",
       linkedIn: "https://www.linkedin.com/in/melanie-cn/",
     },
   },
   {
+    left: 38.7,
+    top: 45,
+    info: {
+      name: "Pierre Fraisse",
+      image: "assets/Photos/PierreFraisse.jpeg",
+      city: "Lille (Bois blancs) (59)",
+      stacks: "Laravel | Flutter | Angular | .NET",
+      sports: "Boxe thaï",
+      passions:
+        "Guitare acoustique | Chant | Tous les genres de musique | Cinéma — <i>«\u00A0Tous les genres aussi\u00A0»</i>",
+      github: "https://github.com/PierreFrs",
+      linkedIn: "https://www.linkedin.com/in/pierre-fraisse-83b4b5253/",
+    },
+  },
+
+  {
+    left: 42,
+    top: 46.2,
+    info: {
+      name: "Nassim Deflandre",
+      image: "assets/Photos/NassimDeflandre.jpeg",
+      city: "Ronchin (59)",
+      stacks: "React | .NET | NodeJS | NoSQL",
+      sports: "Football",
+      passions:
+        "Séries («\u00A0Vikings\u00A0») | Jeux vidéo («\u00A0Fifa\u00A0», «\u00A0Call Of Duty\u00A0») | 1\u00A0fille de 2\u00A0ans et demi et 1\u00A0garçon nouveau-né",
+      github: "https://github.com/NassJs",
+      linkedIn: "https://www.linkedin.com/in/nassim-d-aaa48a204/",
+    },
+  },
+  {
     left: 40.3,
-    top: 48,
+    top: 46.3,
     info: {
       name: "Ludovic Phounphonh",
       image: "assets/Photos/LudovicPhounphonh.jpg",
-      city: "Templemars",
-      stacks: "React, React Native, Java, Spring Boot, PostGre, MySQL",
-      sports: "Promener son chien Rebus, flâner en forêt, randonnées",
+      city: "Templemars (59)",
+      stacks: "React | React Native | Java, Spring Boot | PostGre | MySQL",
+      sports: "Promener son chien Rebus | Flâner en forêt | Randonnées",
       passions:
-        "Faire à manger, manger, metal, musique classique, guitare, visite des châteaux",
+        "Faire à manger | Manger | Metal, musique classique | Guitare | Visite de châteaux",
       github: "https://github.com/Ludoph",
       linkedIn: "https://www.linkedin.com/in/092155113",
     },
   },
 ];
 
-const modal = document.getElementById('modal-profile');
-const modalTitle = document.getElementById('modal-title');
-const modalImage = document.getElementById('modal-image');
-const modalDescription = document.getElementById('modal-description');
-const closeButton = document.querySelector('.close');
+const modal = document.getElementById("modal-profile");
+const modalTitle = document.getElementById("modal-title");
+const modalImage = document.getElementById("modal-image");
+const modalDescription = document.getElementById("modal-description");
+const closeButton = document.querySelector(".close");
 const mapContainer = document.querySelector(".map-container");
 
 dataProfiles.forEach((point, index) => {
- 
   const pointElement = document.createElement("div");
   pointElement.classList.add("point");
   pointElement.style.left = point.left + "%";
@@ -231,30 +233,31 @@ dataProfiles.forEach((point, index) => {
 
   /* Open modal */
   pointElement.addEventListener("click", () => {
-    const person = dataProfiles[index]; 
+    const person = dataProfiles[index];
 
-    modalTitle.textContent = person.info.name;
+    modalTitle.innerHTML = person.info.name;
     modalImage.src = person.info.image;
 
-    document.getElementById('modal-city').textContent = person.info.city;
-    document.getElementById('modal-stacks').textContent = person.info.stacks;
-    document.getElementById('modal-sports').textContent = person.info.sports;
-    document.getElementById('modal-passions').textContent = person.info.passions;
-    document.getElementById('modal-github').href = person.info.github;
-    document.getElementById('modal-linkedIn').href = person.info.linkedIn;
+    document.getElementById("modal-city").innerHTML = person.info.city;
+    document.getElementById("modal-stacks").innerHTML = person.info.stacks;
+    document.getElementById("modal-sports").innerHTML = person.info.sports;
+    document.getElementById("modal-passions").innerHTML =
+      person.info.passions;
+    document.getElementById("modal-github").href = person.info.github;
+    document.getElementById("modal-linkedIn").href = person.info.linkedIn;
 
     // Display modal
-    modal.style.display = 'block';
+    modal.style.display = "block";
   });
 });
 
-/* Close modal */ 
-closeButton.addEventListener('click', () => {
-  modal.style.display = 'none';
+/* Close modal */
+closeButton.addEventListener("click", () => {
+  modal.style.display = "none";
 });
 
-window.addEventListener('click', (event) => {
+window.addEventListener("click", (event) => {
   if (event.target === modal) {
-      modal.style.display = 'none';
+    modal.style.display = "none";
   }
 });
